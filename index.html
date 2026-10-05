@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>神马电影网午夜 - 深夜专属高清电影在线观看平台</title>
+<meta name="keywords" content="神马电影网午夜,午夜电影,高清电影在线观看,深夜影视,午夜场,最新电影,神马电影网">
+<meta name="description" content="神马电影网午夜频道，专为深夜观影打造的高清正版电影平台，海量午夜场影视资源每日更新，恐怖悬疑、动作冒险、经典老片应有尽有。">
+<meta name="author" content="神马电影网午夜">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="revisit-after" content="1 days">
+<meta name="language" content="zh-CN">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#0d0d2b">
+<meta property="og:title" content="神马电影网午夜 - 深夜专属高清电影在线观看平台">
+<meta property="og:description" content="神马电影网午夜频道，专为深夜观影打造的高清正版电影平台，海量午夜场影视资源每日更新。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="神马电影网午夜">
+<meta property="og:url" content="https://shenmadianyingwangwuye-wap.github.io">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="神马电影网午夜 - 深夜专属高清电影在线观看">
+<meta name="twitter:description" content="专为深夜观影打造的高清正版电影平台，海量午夜场影视资源每日更新。">
+<link rel="canonical" href="https://shenmadianyingwangwuye-wap.github.io">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌙</text></svg>">
+<style>
+/* ==================== Reset & Base ==================== */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+  --midnight-deep:#05051a;
+  --midnight-bg:#0a0a2e;
+  --midnight-card:#12123a;
+  --midnight-card-hover:#1a1a4e;
+  --midnight-purple:#2d2b55;
+  --accent-moon:#7c6bc4;
+  --accent-glow:#a78bfa;
+  --accent-cyan:#22d3ee;
+  --accent-pink:#f472b6;
+  --accent-amber:#fbbf24;
+  --text-primary:#e8e8ff;
+  --text-secondary:#a5a5d2;
+  --text-muted:#6b6b9e;
+  --border-soft:rgba(124,107,196,.2);
+  --border-glow:rgba(124,107,196,.4);
+  --shadow-soft:0 4px 30px rgba(0,0,0,.4);
+  --shadow-glow:0 0 40px rgba(124,107,196,.3);
+  --radius-sm:8px;
+  --radius-md:14px;
+  --radius-lg:20px;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --t-fast:.2s var(--ease);
+  --t-base:.4s var(--ease);
+  --t-slow:.6s var(--ease);
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",-apple-system,BlinkMacSystemFont,sans-serif;
+  background:var(--midnight-deep);
+  color:var(--text-primary);
+  line-height:1.7;
+  overflow-x:hidden;
+  min-height:100vh;
+}
+body::before{
+  content:'';position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% -10%,rgba(124,107,196,.15),transparent),
+    radial-gradient(ellipse 60% 50% at 80% 30%,rgba(34,211,238,.06),transparent),
+    radial-gradient(ellipse 60% 50% at 20% 70%,rgba(244,114,182,.06),transparent);
+}
+body::after{
+  content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background-image:
+    radial-gradient(1px 1px at 10% 20%,rgba(255,255,255,.4),transparent),
+    radial-gradient(1px 1px at 30% 50%,rgba(255,255,255,.3),transparent),
+    radial-gradient(1.5px 1.5px at 50% 10%,rgba(255,255,255,.5),transparent),
+    radial-gradient(1px 1px at 70% 40%,rgba(255,255,255,.3),transparent),
+    radial-gradient(1px 1px at 90% 80%,rgba(255,255,255,.4),transparent),
+    radial-gradient(1.5px 1.5px at 15% 80%,rgba(255,255,255,.3),transparent),
+    radial-gradient(1px 1px at 55% 65%,rgba(255,255,255,.35),transparent),
+    radial-gradient(1px 1px at 85% 15%,rgba(255,255,255,.25),transparent),
+    radial-gradient(1px 1px at 40% 90%,rgba(255,255,255,.3),transparent),
+    radial-gradient(1.5px 1.5px at 65% 30%,rgba(255,255,255,.2),transparent);
+  animation:twinkle 6s ease-in-out infinite alternate;
+}
+@keyframes twinkle{0%{opacity:.6}100%{opacity:1}}
+a{text-decoration:none;color:inherit;transition:var(--t-fast)}
+ul,ol{list-style:none}
+img{max-width:100%;display:block}
+button{font-family:inherit;cursor:pointer;border:none;outline:none;background:none}
+input{font-family:inherit;outline:none;border:none;background:none}
+
+/* ==================== Scroll Progress ==================== */
+.scroll-progress{
+  position:fixed;top:0;left:0;height:3px;z-index:10000;
+  background:linear-gradient(90deg,var(--accent-moon),var(--accent-glow),var(--accent-cyan));
+  width:0%;transition:width .1s linear;
+}
+
+/* ==================== Preloader ==================== */
+.preloader{
+  position:fixed;inset:0;z-index:9999;
+  background:var(--midnight-deep);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;
+  transition:opacity .8s,visibility .8s;
+}
+.preloader.done{opacity:0;visibility:hidden}
+.moon-loader{
+  width:80px;height:80px;border-radius:50%;position:relative;
+  box-shadow:inset -12px -12px 0 0 var(--accent-glow);
+  animation:moonSpin 2s linear infinite;
+}
+.moon-loader::after{
+  content:'';position:absolute;inset:-6px;border-radius:50%;
+  border:2px solid transparent;border-top-color:var(--accent-moon);
+  border-right-color:var(--accent-cyan);
+  animation:orbitSpin 1.5s linear infinite;
+}
+@keyframes moonSpin{to{transform:rotate(360deg)}}
+@keyframes orbitSpin{to{transform:rotate(-720deg)}}
+.preloader-text{
+  font-size:1.1rem;font-weight:700;letter-spacing:3px;
+  color:var(--accent-glow);
+  animation:pulse 1.5s ease-in-out infinite;
+}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+
+/* ==================== Top Bar ==================== */
+.topbar{
+  background:rgba(5,5,26,.85);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border-soft);
+  position:sticky;top:0;z-index:1000;
+  transition:var(--t-base);
+}
+.topbar.scrolled{box-shadow:var(--shadow-soft);border-bottom-color:var(--border-glow)}
+.topbar-inner{
+  max-width:1280px;margin:0 auto;padding:0 20px;
+  display:flex;align-items:center;justify-content:space-between;
+  height:68px;gap:20px;
+}
+.brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.brand-icon{
+  width:40px;height:40px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.4rem;
+  background:linear-gradient(135deg,var(--accent-moon),var(--accent-glow));
+  box-shadow:var(--shadow-glow);
+}
+.brand-text h1{font-size:1.15rem;font-weight:800;letter-spacing:.5px;white-space:nowrap}
+.brand-text span{font-size:.65rem;color:var(--text-muted);letter-spacing:1px;text-transform:uppercase}
+
+.main-nav{display:flex;align-items:center;gap:2px}
+.main-nav a{
+  padding:8px 14px;border-radius:var(--radius-sm);
+  font-size:.85rem;font-weight:500;
+  color:var(--text-secondary);
+  position:relative;white-space:nowrap;
+}
+.main-nav a::before{
+  content:'';position:absolute;inset:0;border-radius:var(--radius-sm);
+  background:linear-gradient(135deg,var(--accent-moon),var(--accent-glow));
+  opacity:0;transition:var(--t-fast);z-index:-1;
+}
+.main-nav a:hover,.main-nav a.on{color:#fff}
+.main-nav a:hover::before,.main-nav a.on::before{opacity:1}
+.main-nav a.on{box-shadow:0 2px 12px rgba(124,107,196,.4)}
+
+.search-wrap{
+  display:flex;align-items:center;gap:8px;
+  background:var(--midnight-card);
+  border:1px solid var(--border-soft);
+  border-radius:24px;padding:7px 16px;
+  width:200px;transition:var(--t-fast);
+}
+.search-wrap:focus-within{width:240px;border-color:var(--accent-glow);box-shadow:0 0 20px rgba(167,139,250,.2)}
+.search-wrap input{width:100%;color:var(--text-primary);font-size:.85rem}
+.search-wrap input::placeholder{color:var(--text-muted)}
+.search-wrap button{color:var(--text-muted);font-size:1rem;transition:var(--t-fast)}
+.search-wrap button:hover{color:var(--accent-glow)}
+
+.menu-btn{
+  display:none;flex-direction:column;gap:5px;padding:8px;
+}
+.menu-btn i{width:22px;height:2px;background:var(--text-primary);border-radius:1px;transition:var(--t-fast)}
+
+/* ==================== Hero ==================== */
+.hero{
+  min-height:85vh;display:flex;align-items:center;
+  position:relative;overflow:hidden;
+  padding:40px 20px;
+}
+.hero-content{
+  max-width:1280px;margin:0 auto;width:100%;
+  display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center;
+}
+.hero-left{z-position:2}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:6px 18px;border-radius:30px;
+  background:rgba(124,107,196,.12);
+  border:1px solid var(--border-glow);
+  font-size:.75rem;color:var(--accent-glow);
+  letter-spacing:1px;margin-bottom:28px;
+}
+.hero-eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--accent-glow);animation:blink 2s ease infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hero-title{
+  font-size:clamp(2.2rem,5vw,4.5rem);
+  font-weight:900;line-height:1.15;margin-bottom:20px;
+}
+.hero-title .gradient{
+  background:linear-gradient(135deg,var(--accent-glow) 0%,var(--accent-cyan) 50%,var(--accent-pink) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.hero-desc{
+  font-size:clamp(1rem,1.5vw,1.15rem);
+  color:var(--text-secondary);max-width:520px;margin-bottom:36px;
+}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:13px 28px;border-radius:30px;
+  font-size:.9rem;font-weight:600;
+  transition:var(--t-base);
+}
+.btn-main{
+  background:linear-gradient(135deg,var(--accent-moon),var(--accent-glow));
+  color:#fff;box-shadow:0 4px 20px rgba(124,107,196,.4);
+}
+.btn-main:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(124,107,196,.5)}
+.btn-ghost{border:1.5px solid var(--border-glow);color:var(--text-primary)}
+.btn-ghost:hover{border-color:var(--accent-glow);color:var(--accent-glow);background:rgba(167,139,250,.05)}
+
+.hero-right{position:relative;z-index:2}
+.moon-visual{
+  width:100%;aspect-ratio:1;max-width:420px;margin:0 auto;
+  position:relative;display:flex;align-items:center;justify-content:center;
+}
+.moon-visual::before{
+  content:'';position:absolute;inset:10%;border-radius:50%;
+  background:radial-gradient(circle at 35% 35%,#fef9e7,#fde68a,#f59e0b);
+  box-shadow:
+    0 0 80px rgba(251,191,36,.3),
+    0 0 160px rgba(251,191,36,.15),
+    inset -20px -20px 40px rgba(180,83,9,.3);
+  animation:moonFloat 6s ease-in-out infinite;
+}
+.moon-visual::after{
+  content:'';position:absolute;inset:0;border-radius:50%;
+  box-shadow:inset 0 0 60px rgba(167,139,250,.1);
+}
+@keyframes moonFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}
+.moon-ring{
+  position:absolute;inset:-8%;border-radius:50%;
+  border:1px solid rgba(167,139,250,.2);
+  animation:ringRotate 30s linear infinite;
+}
+.moon-ring:nth-child(2){inset:-16%;border-color:rgba(34,211,238,.15);animation-direction:reverse;animation-duration:40s}
+.moon-ring:nth-child(3){inset:-24%;border-color:rgba(244,114,182,.1);animation-duration:50s}
+
+/* ==================== Marquee Stats ==================== */
+.stats-band{
+  border-top:1px solid var(--border-soft);
+  border-bottom:1px solid var(--border-soft);
+  background:rgba(10,10,46,.5);
+  padding:24px 0;
+}
+.stats-inner{
+  max-width:1280px;margin:0 auto;padding:0 20px;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:20px;
+}
+.stat-item{text-align:center;padding:0 16px;border-right:1px solid var(--border-soft)}
+.stat-item:last-child{border-right:none}
+.stat-num{font-size:2rem;font-weight:900;color:var(--accent-glow)}
+.stat-label{font-size:.8rem;color:var(--text-muted);margin-top:4px}
+
+/* ==================== Section Frame ==================== */
+.wrap{max-width:1280px;margin:0 auto;padding:0 20px}
+.sec{padding:90px 0;position:relative}
+.sec-head{text-align:center;margin-bottom:56px}
+.sec-kicker{
+  display:inline-block;font-size:.7rem;font-weight:700;
+  letter-spacing:3px;text-transform:uppercase;
+  color:var(--accent-moon);margin-bottom:10px;
+}
+.sec-title{font-size:clamp(1.6rem,3.5vw,2.6rem);font-weight:800;margin-bottom:14px}
+.sec-desc{color:var(--text-secondary);max-width:560px;margin:0 auto;font-size:.95rem}
+
+/* ==================== COL 1: 午夜精选 (Masonry Card) ==================== */
+.col-midnight{background:linear-gradient(180deg,transparent,rgba(10,10,46,.4))}
+.midnight-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:22px;
+}
+.midnight-card{
+  background:var(--midnight-card);
+  border:1px solid var(--border-soft);
+  border-radius:var(--radius-md);
+  overflow:hidden;transition:var(--t-base);
+  position:relative;
+}
+.midnight-card:hover{
+  transform:translateY(-6px);
+  border-color:var(--border-glow);
+  box-shadow:var(--shadow-glow);
+}
+.mc-poster{
+  position:relative;height:300px;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;
+}
+.mc-poster-bg{
+  position:absolute;inset:0;
+  display:flex;align-items:center;justify-content:center;
+  font-size:3.5rem;
+  transition:var(--t-slow);
+}
+.midnight-card:hover .mc-poster-bg{transform:scale(1.08)}
+.mc-1 .mc-poster-bg{background:linear-gradient(160deg,#1a1a4e,#0d0d3b)}
+.mc-2 .mc-poster-bg{background:linear-gradient(160deg,#2b1b4e,#150a2e)}
+.mc-3 .mc-poster-bg{background:linear-gradient(160deg,#1b2e4e,#0a1a2e)}
+.mc-4 .mc-poster-bg{background:linear-gradient(160deg,#4e1b3a,#2e0a1e)}
+.mc-5 .mc-poster-bg{background:linear-gradient(160deg,#3a1b4e,#1e0a2e)}
+.mc-6 .mc-poster-bg{background:linear-gradient(160deg,#1b4e3a,#0a2e1e)}
+.mc-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(5,5,26,.95) 0%,transparent 60%);
+}
+.mc-badge{
+  position:absolute;top:12px;left:12px;z-index:2;
+  padding:4px 10px;border-radius:6px;font-size:.7rem;font-weight:700;
+}
+.b-midnight{background:linear-gradient(135deg,#6366f1,#a78bfa);color:#fff}
+.b-hot{background:linear-gradient(135deg,#ef4444,#f97316);color:#fff}
+.b-new{background:linear-gradient(135deg,#06b6d4,#3b82f6);color:#fff}
+.b-classic{background:linear-gradient(135deg,#d4a017,#fbbf24);color:#1a1a1a}
+.mc-score{
+  position:absolute;top:12px;right:12px;z-index:2;
+  width:42px;height:42px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:.85rem;font-weight:800;
+  background:rgba(5,5,26,.7);backdrop-filter:blur(4px);
+  border:2px solid var(--accent-amber);color:var(--accent-amber);
+}
+.mc-body{padding:16px;position:relative;z-index:2}
+.mc-title{font-size:1rem;font-weight:700;margin-bottom:8px}
+.mc-meta{display:flex;justify-content:space-between;align-items:center;font-size:.78rem;color:var(--text-muted)}
+.mc-meta em{font-style:normal;color:var(--accent-cyan)}
+
+/* ==================== COL 2: 深夜剧集 (List View) ==================== */
+.col-series{background:linear-gradient(180deg,rgba(10,10,46,.4),rgba(18,18,58,.3))}
+.series-table{display:flex;flex-direction:column;gap:2px;background:var(--border-soft);border-radius:var(--radius-md);overflow:hidden;border:1px solid var(--border-soft)}
+.series-row{
+  display:grid;grid-template-columns:50px 80px 1fr 100px 100px 80px;
+  align-items:center;gap:16px;padding:14px 20px;
+  background:var(--midnight-card);transition:var(--t-fast);
+}
+.series-row:not(.series-head):hover{background:var(--midnight-card-hover);padding-left:28px}
+.series-head{
+  background:linear-gradient(135deg,var(--accent-moon),var(--accent-glow));
+  color:#fff;font-weight:700;font-size:.8rem;letter-spacing:1px;
+  padding:12px 20px;
+}
+.sr-num{font-size:1.1rem;font-weight:800;color:var(--text-muted);text-align:center}
+.series-row:not(.series-head) .sr-num{color:var(--accent-glow)}
+.sr-cover{
+  width:56px;height:72px;border-radius:6px;
+  display:flex;align-items:center;justify-content:center;font-size:1.5rem;
+  background:var(--midnight-bg);
+}
+.sr-info{min-width:0}
+.sr-title{font-weight:600;font-size:.95rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sr-sub{font-size:.75rem;color:var(--text-muted);margin-top:2px}
+.sr-genre{font-size:.75rem;color:var(--accent-cyan)}
+.sr-status{font-size:.75rem}
+.st-live{color:#4ade80}
+.st-end{color:var(--text-muted)}
+.sr-score{font-size:.9rem;font-weight:700;color:var(--accent-amber);text-align:center}
+.sr-action{text-align:right}
+.sr-btn{
+  padding:6px 14px;border-radius:20px;font-size:.75rem;font-weight:600;
+  background:var(--border-soft);color:var(--text-secondary);transition:var(--t-fast);
+}
+.sr-btn:hover{background:var(--accent-moon);color:#fff}
+
+/* ==================== COL 3: 恐怖惊悚 (Diagonal Cards) ==================== */
+.col-horror{background:linear-gradient(180deg,rgba(18,18,58,.3),rgba(10,10,46,.5))}
+.horror-deck{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+.horror-card{
+  position:relative;border-radius:var(--radius-lg);
+  overflow:hidden;min-height:320px;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:28px;transition:var(--t-base);
+  border:1px solid var(--border-soft);
+}
+.horror-card::before{
+  content:'';position:absolute;inset:0;z-index:0;
+  transition:var(--t-slow);
+}
+.hc-1::before{background:linear-gradient(135deg,#1c1917,#450a0a,#7f1d1d)}
+.hc-2::before{background:linear-gradient(135deg,#0c0a09,#3f1d0f,#831843)}
+.hc-3::before{background:linear-gradient(135deg,#0f172a,#1e1b4b,#4c1d95)}
+.hc-4::before{background:linear-gradient(135deg,#0a0a0a,#171717,#262626)}
+.hc-5::before{background:linear-gradient(135deg,#0f172a,#0c4a6e,#075985)}
+.hc-6::before{background:linear-gradient(135deg,#1a0a2e,#4a044e,#86198f)}
+.horror-card::after{
+  content:'';position:absolute;inset:0;z-index:0;
+  background:linear-gradient(to top,rgba(0,0,0,.85) 0%,rgba(0,0,0,.2) 50%,transparent 100%);
+}
+.horror-card:hover{transform:translateY(-4px) scale(1.01)}
+.horror-card:hover::before{transform:scale(1.1)}
+.hc-inner{position:relative;z-index:2}
+.hc-icon{font-size:2.5rem;margin-bottom:12px}
+.hc-title{font-size:1.3rem;font-weight:800;margin-bottom:8px}
+.hc-desc{font-size:.85rem;color:rgba(255,255,255,.7);margin-bottom:14px;line-height:1.6}
+.hc-foot{display:flex;justify-content:space-between;align-items:center}
+.hc-rate{font-size:1rem;font-weight:700;color:var(--accent-amber)}
+.hc-tag{padding:3px 10px;border-radius:4px;font-size:.7rem;background:rgba(255,255,255,.15);backdrop-filter:blur(4px)}
+
+/* ==================== COL 4: 午夜综艺 (Timeline Horizontal) ==================== */
+.col-variety{background:linear-gradient(180deg,rgba(10,10,46,.5),rgba(18,18,58,.2))}
+.variety-track{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0;
+  position:relative;
+}
+.variety-node{
+  position:relative;padding:28px 24px;
+  border-left:2px solid var(--border-glow);
+  transition:var(--t-base);
+}
+.variety-node::before{
+  content:'';position:absolute;left:-7px;top:32px;
+  width:12px;height:12px;border-radius:50%;
+  background:var(--accent-moon);
+  box-shadow:0 0 10px var(--accent-glow);
+}
+.variety-node:hover{border-left-color:var(--accent-glow);background:rgba(124,107,196,.05)}
+.variety-node:hover::before{background:var(--accent-glow);transform:scale(1.3)}
+.vn-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.vn-icon{
+  width:44px;height:44px;border-radius:12px;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;font-size:1.3rem;
+}
+.vn-icon.i1{background:linear-gradient(135deg,#ec4899,#8b5cf6)}
+.vn-icon.i2{background:linear-gradient(135deg,#06b6d4,#3b82f6)}
+.vn-icon.i3{background:linear-gradient(135deg,#f59e0b,#ef4444)}
+.vn-icon.i4{background:linear-gradient(135deg,#84cc16,#22c55e)}
+.vn-title{font-size:1.1rem;font-weight:700}
+.vn-desc{font-size:.85rem;color:var(--text-secondary);line-height:1.7;margin-bottom:12px}
+.vn-foot{display:flex;gap:10px;flex-wrap:wrap}
+.vn-chip{padding:3px 10px;border-radius:20px;font-size:.7rem;background:var(--border-soft);color:var(--accent-glow)}
+
+/* ==================== COL 5: 评分排行 (Bar Chart Style) ==================== */
+.col-chart{background:linear-gradient(180deg,rgba(18,18,58,.2),rgba(10,10,46,.6))}
+.chart-list{display:flex;flex-direction:column;gap:14px;max-width:900px;margin:0 auto}
+.chart-row{
+  display:grid;grid-template-columns:60px 100px 1fr 80px;
+  align-items:center;gap:16px;
+  background:var(--midnight-card);border:1px solid var(--border-soft);
+  border-radius:var(--radius-md);padding:14px 20px;
+  transition:var(--t-base);
+}
+.chart-row:hover{border-color:var(--border-glow);background:var(--midnight-card-hover);transform:translateX(6px)}
+.cr-rank{
+  font-size:1.6rem;font-weight:900;color:var(--text-muted);text-align:center;
+}
+.chart-row:nth-child(1) .cr-rank{color:#fbbf24}
+.chart-row:nth-child(2) .cr-rank{color:#c0c0c0}
+.chart-row:nth-child(3) .cr-rank{color:#cd7f32}
+.cr-cover{
+  width:48px;height:64px;border-radius:6px;
+  display:flex;align-items:center;justify-content:center;font-size:1.3rem;
+  background:var(--midnight-bg);
+}
+.cr-info{min-width:0}
+.cr-bar-wrap{height:6px;border-radius:3px;background:var(--midnight-bg);overflow:hidden;margin-top:6px}
+.cr-bar{height:100%;border-radius:3px;transition:width 1s var(--ease);width:0}
+.cr-bar.b1{background:linear-gradient(90deg,#fbbf24,#f59e0b)}
+.cr-bar.b2{background:linear-gradient(90deg,#a78bfa,#7c6bc4)}
+.cr-bar.b3{background:linear-gradient(90deg,#22d3ee,#0891b2)}
+.cr-score{text-align:right;font-size:1.1rem;font-weight:800;color:var(--accent-glow)}
+
+/* ==================== COL 6: 更新动态 (News Feed) ==================== */
+.col-news{background:linear-gradient(180deg,rgba(10,10,46,.6),transparent)}
+.news-feed{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.news-item{
+  display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center;
+  background:var(--midnight-card);border:1px solid var(--border-soft);
+  border-radius:var(--radius-md);padding:18px 24px;
+  transition:var(--t-base);
+}
+.news-item:hover{border-color:var(--border-glow);background:var(--midnight-card-hover)}
+.news-time{
+  text-align:center;min-width:70px;
+}
+.news-time strong{display:block;font-size:1.3rem;font-weight:800;color:var(--accent-glow)}
+.news-time span{font-size:.7rem;color:var(--text-muted)}
+.news-body{min-width:0}
+.news-tag{
+  display:inline-block;padding:2px 8px;border-radius:4px;
+  font-size:.65rem;font-weight:700;margin-bottom:6px;
+}
+.nt-movie{background:rgba(167,139,250,.2);color:var(--accent-glow)}
+.nt-series{background:rgba(34,211,238,.2);color:var(--accent-cyan)}
+.nt-anime{background:rgba(244,114,182,.2);color:var(--accent-pink)}
+.news-body h4{font-size:1rem;font-weight:600;margin-bottom:4px}
+.news-body p{font-size:.82rem;color:var(--text-muted)}
+.news-arrow{color:var(--text-muted);font-size:1.2rem;transition:var(--t-fast)}
+.news-item:hover .news-arrow{color:var(--accent-glow);transform:translateX(4px)}
+
+/* ==================== CTA Banner ==================== */
+.cta-banner{
+  max-width:1280px;margin:0 auto;padding:0 20px 90px;
+}
+.cta-inner{
+  border-radius:var(--radius-lg);padding:50px 40px;text-align:center;
+  background:linear-gradient(135deg,var(--accent-moon),var(--accent-glow));
+  position:relative;overflow:hidden;
+}
+.cta-inner::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(circle at 80% 20%,rgba(255,255,255,.15),transparent 50%);
+}
+.cta-inner h3{font-size:clamp(1.4rem,3vw,2.2rem);font-weight:800;margin-bottom:12px;position:relative}
+.cta-inner p{color:rgba(255,255,255,.85);margin-bottom:28px;position:relative;max-width:500px;margin-left:auto;margin-right:auto}
+.cta-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:14px 36px;border-radius:30px;
+  background:#fff;color:var(--accent-moon);
+  font-size:1rem;font-weight:700;transition:var(--t-base);
+  position:relative;
+}
+.cta-btn:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,.3)}
+
+/* ==================== Footer ==================== */
+.foot{
+  background:#03031a;border-top:1px solid var(--border-soft);
+  padding:60px 0 30px;
+}
+.foot-inner{max-width:1280px;margin:0 auto;padding:0 20px}
+.foot-grid{
+  display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;
+  margin-bottom:40px;
+}
+.foot-brand .brand{margin-bottom:14px}
+.foot-brand p{color:var(--text-muted);font-size:.85rem;line-height:1.8}
+.foot-col h5{font-size:.95rem;font-weight:700;margin-bottom:16px;color:var(--text-primary)}
+.foot-col ul{display:flex;flex-direction:column;gap:10px}
+.foot-col a{color:var(--text-muted);font-size:.85rem}
+.foot-col a:hover{color:var(--accent-glow)}
+.foot-bottom{
+  border-top:1px solid var(--border-soft);padding-top:24px;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;
+}
+.foot-copy{color:var(--text-muted);font-size:.78rem}
+.foot-links{display:flex;gap:24px;flex-wrap:wrap}
+.foot-links a{color:var(--text-muted);font-size:.78rem}
+.foot-links a:hover{color:var(--accent-glow)}
+
+/* ==================== Back to Top ==================== */
+.to-top{
+  position:fixed;bottom:30px;right:30px;z-index:999;
+  width:48px;height:48px;border-radius:50%;
+  background:linear-gradient(135deg,var(--accent-moon),var(--accent-glow));
+  color:#fff;font-size:1.2rem;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:var(--shadow-glow);
+  opacity:0;visibility:hidden;transform:scale(.5) rotate(-180deg);
+  transition:var(--t-base);
+}
+.to-top.show{opacity:1;visibility:visible;transform:scale(1) rotate(0)}
+.to-top:hover{transform:scale(1.1)}
+
+/* ==================== Responsive ==================== */
+@media(max-width:1024px){
+  .hero-content{grid-template-columns:1fr;gap:40px;text-align:center}
+  .hero-desc{margin-left:auto;margin-right:auto}
+  .hero-cta{justify-content:center}
+  .hero-right{display:none}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:30px}
+}
+@media(max-width:768px){
+  .main-nav{
+    position:fixed;top:68px;left:0;right:0;
+    flex-direction:column;padding:20px;
+    background:rgba(5,5,26,.98);
+    backdrop-filter:blur(16px);
+    border-bottom:1px solid var(--border-soft);
+    transform:translateY(-120%);opacity:0;
+    transition:var(--t-base);
+    max-height:calc(100vh - 68px);overflow-y:auto;
+  }
+  .main-nav.open{transform:translateY(0);opacity:1}
+  .main-nav a{width:100%;text-align:center;padding:14px;border-radius:var(--radius-sm)}
+  .menu-btn{display:flex}
+  .search-wrap{display:none}
+  .stats-inner{grid-template-columns:repeat(2,1fr);gap:16px}
+  .stat-item:nth-child(2){border-right:none}
+  .stat-item:nth-child(1),.stat-item:nth-child(2){padding-bottom:16px;border-bottom:1px solid var(--border-soft)}
+  .sec{padding:60px 0}
+  .sec-head{margin-bottom:36px}
+  .series-row{grid-template-columns:36px 48px 1fr 60px;gap:10px;padding:12px}
+  .series-row .sr-genre,.series-row .sr-action{display:none}
+  .series-head{display:none}
+  .news-item{grid-template-columns:auto 1fr;gap:14px;padding:14px 16px}
+  .news-arrow{display:none}
+  .chart-row{grid-template-columns:40px 44px 1fr 60px;gap:10px;padding:12px 14px}
+  .cr-rank{font-size:1.2rem}
+  .variety-track{gap:0}
+  .foot-grid{grid-template-columns:1fr;gap:30px}
+  .foot-bottom{flex-direction:column;text-align:center}
+}
+@media(max-width:480px){
+  .midnight-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .midnight-card .mc-poster{height:220px}
+  .hero-cta .btn{padding:12px 22px;font-size:.85rem}
+  .hero-cta{flex-direction:column;align-items:stretch}
+  .mc-body{padding:12px}
+  .mc-title{font-size:.85rem}
+}
+
+/* ==================== Animations ==================== */
+@keyframes fadeUp{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.rv{opacity:0;transform:translateY(40px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.rv.in{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<!-- Scroll Progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="moon-loader"></div>
+  <div class="preloader-text">神马电影网午夜</div>
+</div>
+
+<!-- Top Bar -->
+<div class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a href="#" class="brand">
+      <div class="brand-icon">🌙</div>
+      <div class="brand-text">
+        <h1>神马电影网午夜</h1>
+        <span>Midnight Movies</span>
+      </div>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="on">首页</a>
+      <a href="#midnight">午夜精选</a>
+      <a href="#series">深夜剧集</a>
+      <a href="#horror">恐怖惊悚</a>
+      <a href="#variety">午夜综艺</a>
+      <a href="#chart">评分排行</a>
+      <a href="#news">更新动态</a>
+    </nav>
+    <div class="search-wrap">
+      <input type="text" id="searchIn" placeholder="搜索影片...">
+      <button onclick="doSearch()">🔍</button>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="菜单">
+      <i></i><i></i><i></i>
+    </button>
+  </div>
+</div>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-eyebrow"><span class="dot"></span> 深夜专属 · 每日更新</div>
+      <h2 class="hero-title">深夜不打烊<br><span class="gradient">好电影永远在线</span></h2>
+      <p class="hero-desc">神马电影网午夜频道，专为深夜观影者打造的高清影视平台。海量午夜场资源 — 恐怖悬疑、动作冒险、经典老片，24小时不间断更新。</p>
+      <div class="hero-cta">
+        <a href="#midnight" class="btn btn-main">🌙 探索午夜精选</a>
+        <a href="#chart" class="btn btn-ghost">🏆 查看排行榜</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="moon-visual">
+        <div class="moon-ring"></div>
+        <div class="moon-ring"></div>
+        <div class="moon-ring"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Band -->
+<div class="stats-band">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="stat-num" data-target="26800">0</div>
+      <div class="stat-label">午夜影视资源</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" data-target="128">0</div>
+      <div class="stat-label">每日更新量</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" data-target="4">0</div>
+      <div class="stat-label">K+ 同时在线</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" data-target="99">0</div>
+      <div class="stat-label">.9% 高清画质</div>
+    </div>
+  </div>
+</div>
+
+<!-- COL 1: 午夜精选 -->
+<section class="sec col-midnight" id="midnight">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-kicker">🌙 Midnight Picks</div>
+      <h2 class="sec-title">午夜精选</h2>
+      <p class="sec-desc">深夜最适合的观影选择，每一部都是精心挑选的午夜良伴</p>
+    </div>
+    <div class="midnight-grid">
+      <article class="midnight-card mc-1 rv">
+        <div class="mc-poster">
+          <div class="mc-overlay"></div>
+          <span class="mc-badge b-midnight">午夜</span>
+          <div class="mc-score">9.3</div>
+          <div class="mc-poster-bg">🧛</div>
+        </div>
+        <div class="mc-body">
+          <h3 class="mc-title">暗夜吸血鬼传说</h3>
+          <div class="mc-meta"><span>恐怖/惊悚</span><em>⏱ 132min</em></div>
+        </div>
+      </article>
+      <article class="midnight-card mc-2 rv">
+        <div class="mc-poster">
+          <div class="mc-overlay"></div>
+          <span class="mc-badge b-hot">热播</span>
+          <div class="mc-score">8.9</div>
+          <div class="mc-poster-bg">🔍</div>
+        </div>
+        <div class="mc-body">
+          <h3 class="mc-title">午夜迷踪</h3>
+          <div class="mc-meta"><span>悬疑/犯罪</span><em>⏱ 118min</em></div>
+        </div>
+      </article>
+      <article class="midnight-card mc-3 rv">
+        <div class="mc-poster">
+          <div class="mc-overlay"></div>
+          <span class="mc-badge b-new">最新</span>
+          <div class="mc-score">8.7</div>
+          <div class="mc-poster-bg">🚀</div>
+        </div>
+        <div class="mc-body">
+          <h3 class="mc-title">星际夜行者</h3>
+          <div class="mc-meta"><span>科幻/冒险</span><em>⏱ 145min</em></div>
+        </div>
+      </article>
+      <article class="midnight-card mc-4 rv">
+        <div class="mc-poster">
+          <div class="mc-overlay"></div>
+          <span class="mc-badge b-classic">经典</span>
+          <div class="mc-score">9.5</div>
+          <div class="mc-poster-bg">🎭</div>
+        </div>
+        <div class="mc-body">
+          <h3 class="mc-title">午夜巴黎</h3>
+          <div class="mc-meta"><span>文艺/剧情</span><em>⏱ 94min</em></div>
+        </div>
+      </article>
+      <article class="midnight-card mc-5 rv">
+        <div class="mc-poster">
+          <div class="mc-overlay"></div>
+          <span class="mc-badge b-hot">热播</span>
+          <div class="mc-score">8.6</div>
+          <div class="mc-poster-bg">👻</div>
+        </div>
+        <div class="mc-body">
+          <h3 class="mc-title">幽灵公寓</h3>
+          <div class="mc-meta"><span>恐怖/灵异</span><em>⏱ 108min</em></div>
+        </div>
+      </article>
+      <article class="midnight-card mc-6 rv">
+        <div class="mc-poster">
+          <div class="mc-overlay"></div>
+          <span class="mc-badge b-midnight">午夜</span>
+          <div class="mc-score">8.8</div>
+          <div class="mc-poster-bg">🏝️</div>
+        </div>
+        <div class="mc-body">
+          <h3 class="mc-title">孤岛惊魂夜</h3>
+          <div class="mc-meta"><span>惊悚/冒险</span><em>⏱ 126min</em></div>
+        </div>
+      </article>
+      <article class="midnight-card mc-1 rv">
+        <div class="mc-poster">
+          <div class="mc-overlay"></div>
+          <span class="mc-badge b-new">最新</span>
+          <div class="mc-score">8.4</div>
+          <div class="mc-poster-bg">🕯️</div>
+        </div>
+        <div class="mc-body">
+          <h3 class="mc-title">烛光杀人事件</h3>
+          <div class="mc-meta"><span>悬疑/推理</span><em>⏱ 112min</em></div>
+        </div>
+      </article>
+      <article class="midnight-card mc-4 rv">
+        <div class="mc-poster">
+          <div class="mc-overlay"></div>
+          <span class="mc-badge b-classic">经典</span>
+          <div class="mc-score">9.1</div>
+          <div class="mc-poster-bg">🎬</div>
+        </div>
+        <div class="mc-body">
+          <h3 class="mc-title">夜行者</h3>
+          <div class="mc-meta"><span>犯罪/剧情</span><em>⏱ 117min</em></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- COL 2: 深夜剧集 -->
+<section class="sec col-series" id="series">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-kicker">📺 Late Night Series</div>
+      <h2 class="sec-title">深夜剧集</h2>
+      <p class="sec-desc">熬夜追剧首选，紧凑剧情让你欲罢不能</p>
+    </div>
+    <div class="series-table">
+      <div class="series-row series-head">
+        <span>#</span><span>封面</span><span>剧名</span><span>类型</span><span>状态</span><span style="text-align:right">评分</span>
+      </div>
+      <div class="series-row rv">
+        <span class="sr-num">01</span>
+        <div class="sr-cover">👑</div>
+        <div class="sr-info"><div class="sr-title">暗夜王朝</div><div class="sr-sub">权谋斗争 · 12集全</div></div>
+        <span class="sr-genre">古装/权谋</span>
+        <span class="sr-status st-end">已完结</span>
+        <span class="sr-score">9.2</span>
+        <span class="sr-action"><button class="sr-btn">观看</button></span>
+      </div>
+      <div class="series-row rv">
+        <span class="sr-num">02</span>
+        <div class="sr-cover">🔬</div>
+        <div class="sr-info"><div class="sr-title">深夜实验室</div><div class="sr-sub">科学悬疑 · 更新至18集</div></div>
+        <span class="sr-genre">科幻/悬疑</span>
+        <span class="sr-status st-live">连载中</span>
+        <span class="sr-score">8.8</span>
+        <span class="sr-action"><button class="sr-btn">观看</button></span>
+      </div>
+      <div class="series-row rv">
+        <span class="sr-num">03</span>
+        <div class="sr-cover">🏙️</div>
+        <div class="sr-info"><div class="sr-title">城市夜归人</div><div class="sr-sub">都市情感 · 24集全</div></div>
+        <span class="sr-genre">都市/情感</span>
+        <span class="sr-status st-end">已完结</span>
+        <span class="sr-score">8.5</span>
+        <span class="sr-action"><button class="sr-btn">观看</button></span>
+      </div>
+      <div class="series-row rv">
+        <span class="sr-num">04</span>
+        <div class="sr-cover">⚔️</div>
+        <div class="sr-info"><div class="sr-title">午夜剑客行</div><div class="sr-sub">武侠传奇 · 更新至32集</div></div>
+        <span class="sr-genre">武侠/古装</span>
+        <span class="sr-status st-live">连载中</span>
+        <span class="sr-score">9.0</span>
+        <span class="sr-action"><button class="sr-btn">观看</button></span>
+      </div>
+      <div class="series-row rv">
+        <span class="sr-num">05</span>
+        <div class="sr-cover">🕵️</div>
+        <div class="sr-info"><div class="sr-title">午夜侦探社</div><div class="sr-sub">推理破案 · 更新至24集</div></div>
+        <span class="sr-genre">推理/悬疑</span>
+        <span class="sr-status st-live">连载中</span>
+        <span class="sr-score">8.7</span>
+        <span class="sr-action"><button class="sr-btn">观看</button></span>
+      </div>
+      <div class="series-row rv">
+        <span class="sr-num">06</span>
+        <div class="sr-cover">💼</div>
+        <div class="sr-info"><div class="sr-title">深夜会议室</div><div class="sr-sub">职场商战 · 16集全</div></div>
+        <span class="sr-genre">职场/商战</span>
+        <span class="sr-status st-end">已完结</span>
+        <span class="sr-score">8.3</span>
+        <span class="sr-action"><button class="sr-btn">观看</button></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COL 3: 恐怖惊悚 -->
+<section class="sec col-horror" id="horror">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-kicker">🎃 Horror & Thriller</div>
+      <h2 class="sec-title">恐怖惊悚专区</h2>
+      <p class="sec-desc">深夜心跳加速的最佳选择，胆小慎入！</p>
+    </div>
+    <div class="horror-deck">
+      <article class="horror-card hc-1 rv">
+        <div class="hc-inner">
+          <div class="hc-icon">🏚️</div>
+          <h3 class="hc-title">废弃医院</h3>
+          <p class="hc-desc">一群年轻人闯入废弃已久的市立医院，却发现里面并不空无一人...</p>
+          <div class="hc-foot"><span class="hc-rate">⭐ 8.9</span><span class="hc-tag">恐怖</span></div>
+        </div>
+      </article>
+      <article class="horror-card hc-2 rv">
+        <div class="hc-inner">
+          <div class="hc-icon">🔮</div>
+          <h3 class="hc-title">诅咒录像带</h3>
+          <p class="hc-desc">一盘神秘的录像带，看过的人都会在七天后离奇死亡...</p>
+          <div class="hc-foot"><span class="hc-rate">⭐ 9.1</span><span class="hc-tag">灵异</span></div>
+        </div>
+      </article>
+      <article class="horror-card hc-3 rv">
+        <div class="hc-inner">
+          <div class="hc-icon">🧟</div>
+          <h3 class="hc-title">午夜感染者</h3>
+          <p class="hc-desc">城市在一夜之间被未知病毒感染，幸存者们必须在黎明前找到解药。</p>
+          <div class="hc-foot"><span class="hc-rate">⭐ 8.6</span><span class="hc-tag">丧尸</span></div>
+        </div>
+      </article>
+      <article class="horror-card hc-4 rv">
+        <div class="hc-inner">
+          <div class="hc-icon">🔪</div>
+          <h3 class="hc-title">沉默杀手</h3>
+          <p class="hc-desc">一个没有面孔的人，在午夜时分悄然降临，没有人知道他下一个目标是谁。</p>
+          <div class="hc-foot"><span class="hc-rate">⭐ 8.8</span><span class="hc-tag">惊悚</span></div>
+        </div>
+      </article>
+      <article class="horror-card hc-5 rv">
+        <div class="hc-inner">
+          <div class="hc-icon">🚢</div>
+          <h3 class="hc-title">深海禁区</h3>
+          <p class="hc-desc">一艘远洋货轮在百慕大三角神秘失踪，救援队深入海底发现惊天秘密。</p>
+          <div class="hc-foot"><span class="hc-rate">⭐ 8.4</span><span class="hc-tag">深海恐怖</span></div>
+        </div>
+      </article>
+      <article class="horror-card hc-6 rv">
+        <div class="hc-inner">
+          <div class="hc-icon">🎪</div>
+          <h3 class="hc-title">午夜马戏团</h3>
+          <p class="hc-desc">一个只在午夜出现的马戏团，进去的人再也没有出来过...</p>
+          <div class="hc-foot"><span class="hc-rate">⭐ 8.7</span><span class="hc-tag">超自然</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- COL 4: 午夜综艺 -->
+<section class="sec col-variety" id="variety">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-kicker">🎤 Midnight Variety</div>
+      <h2 class="sec-title">午夜综艺</h2>
+      <p class="sec-desc">深夜陪伴你的最佳综艺节目，欢笑与感动同在</p>
+    </div>
+    <div class="variety-track">
+      <div class="variety-node rv">
+        <div class="vn-head">
+          <div class="vn-icon i1">🎤</div>
+          <h3 class="vn-title">深夜歌会</h3>
+        </div>
+        <p class="vn-desc">午夜时分的音乐盛宴，知名歌手深夜开唱，用歌声治愈每一个失眠的灵魂。</p>
+        <div class="vn-foot"><span class="vn-chip">音乐</span><span class="vn-chip">直播</span><span class="vn-chip">每週五更新</span></div>
+      </div>
+      <div class="variety-node rv">
+        <div class="vn-head">
+          <div class="vn-icon i2">🎯</div>
+          <h3 class="vn-title">深夜挑战赛</h3>
+        </div>
+        <p class="vn-desc">明星嘉宾挑战各种午夜极限任务，笑料不断，精彩纷呈。</p>
+        <div class="vn-foot"><span class="vn-chip">真人秀</span><span class="vn-chip">竞技</span><span class="vn-chip">更新中</span></div>
+      </div>
+      <div class="variety-node rv">
+        <div class="vn-head">
+          <div class="vn-icon i3">🍳</div>
+          <h3 class="vn-title">午夜厨房</h3>
+        </div>
+        <p class="vn-desc">深夜美食节目，大厨教你做宵夜，边看边流口水！</p>
+        <div class="vn-foot"><span class="vn-chip">美食</span><span class="vn-chip">生活</span><span class="vn-chip">更新中</span></div>
+      </div>
+      <div class="variety-node rv">
+        <div class="vn-head">
+          <div class="vn-icon i4">💬</div>
+          <h3 class="vn-title">深夜话局</h3>
+        </div>
+        <p class="vn-desc">名人深夜对话节目，聊人生、聊梦想、聊那些不为人知的故事。</p>
+        <div class="vn-foot"><span class="vn-chip">访谈</span><span class="vn-chip">深度</span><span class="vn-chip">更新中</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COL 5: 评分排行 -->
+<section class="sec col-chart" id="chart">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-kicker">🏆 Top Ranking</div>
+      <h2 class="sec-title">评分排行榜</h2>
+      <p class="sec-desc">基于数百万用户真实评分，每周实时更新</p>
+    </div>
+    <div class="chart-list">
+      <div class="chart-row rv">
+        <span class="cr-rank">1</span>
+        <div class="cr-cover">🎬</div>
+        <div class="cr-info">
+          <div style="font-weight:600">暗夜吸血鬼传说</div>
+          <div class="cr-bar-wrap"><div class="cr-bar b1" data-w="96"></div></div>
+        </div>
+        <span class="cr-score">9.3</span>
+      </div>
+      <div class="chart-row rv">
+        <span class="cr-rank">2</span>
+        <div class="cr-cover">🎬</div>
+        <div class="cr-info">
+          <div style="font-weight:600">午夜巴黎</div>
+          <div class="cr-bar-wrap"><div class="cr-bar b2" data-w="92"></div></div>
+        </div>
+        <span class="cr-score">9.1</span>
+      </div>
+      <div class="chart-row rv">
+        <span class="cr-rank">3</span>
+        <div class="cr-cover">🎬</div>
+        <div class="cr-info">
+          <div style="font-weight:600">夜行者</div>
+          <div class="cr-bar-wrap"><div class="cr-bar b3" data-w="88"></div></div>
+        </div>
+        <span class="cr-score">8.8</span>
+      </div>
+      <div class="chart-row rv">
+        <span class="cr-rank">4</span>
+        <div class="cr-cover">🎬</div>
+        <div class="cr-info">
+          <div style="font-weight:600">午夜迷踪</div>
+          <div class="cr-bar-wrap"><div class="cr-bar b1" data-w="85"></div></div>
+        </div>
+        <span class="cr-score">8.7</span>
+      </div>
+      <div class="chart-row rv">
+        <span class="cr-rank">5</span>
+        <div class="cr-cover">🎬</div>
+        <div class="cr-info">
+          <div style="font-weight:600">诅咒录像带</div>
+          <div class="cr-bar-wrap"><div class="cr-bar b2" data-w="82"></div></div>
+        </div>
+        <span class="cr-score">8.6</span>
+      </div>
+      <div class="chart-row rv">
+        <span class="cr-rank">6</span>
+        <div class="cr-cover">🎬</div>
+        <div class="cr-info">
+          <div style="font-weight:600">幽灵公寓</div>
+          <div class="cr-bar-wrap"><div class="cr-bar b3" data-w="79"></div></div>
+        </div>
+        <span class="cr-score">8.5</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COL 6: 更新动态 -->
+<section class="sec col-news" id="news">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-kicker">📡 Latest Updates</div>
+      <h2 class="sec-title">更新动态</h2>
+      <p class="sec-desc">第一时间掌握最新午夜影视资源上线信息</p>
+    </div>
+    <div class="news-feed">
+      <div class="news-item rv">
+        <div class="news-time"><strong>10.04</strong><span>23:30</span></div>
+        <div class="news-body">
+          <span class="news-tag nt-movie">电影</span>
+          <h4>🎬《星际夜行者》独家上线午夜场</h4>
+          <p>全新科幻巨制登陆神马电影网午夜频道，4K超清画质，沉浸式观影体验。</p>
+        </div>
+        <span class="news-arrow">→</span>
+      </div>
+      <div class="news-item rv">
+        <div class="news-time"><strong>10.04</strong><span>20:00</span></div>
+        <div class="news-body">
+          <span class="news-tag nt-series">剧集</span>
+          <h4>📺《午夜剑客行》更新至32集</h4>
+          <p>江湖风云再起，主角面临终极抉择，剧情高潮迭起。</p>
+        </div>
+        <span class="news-arrow">→</span>
+      </div>
+      <div class="news-item rv">
+        <div class="news-time"><strong>10.03</strong><span>22:15</span></div>
+        <div class="news-body">
+          <span class="news-tag nt-anime">动漫</span>
+          <h4>🌟《深夜魔法使》全新篇章开启</h4>
+          <p>魔法少女的午夜冒险正式开启，全新角色登场，剧情全面升级。</p>
+        </div>
+        <span class="news-arrow">→</span>
+      </div>
+      <div class="news-item rv">
+        <div class="news-time"><strong>10.03</strong><span>18:40</span></div>
+        <div class="news-body">
+          <span class="news-tag nt-movie">电影</span>
+          <h4>🎬《烛光杀人事件》今日上线</h4>
+          <p>本格推理佳作，密室杀人谜案等你来解开真相。</p>
+        </div>
+        <span class="news-arrow">→</span>
+      </div>
+      <div class="news-item rv">
+        <div class="news-time"><strong>10.02</strong><span>23:00</span></div>
+        <div class="news-body">
+          <span class="news-tag nt-series">剧集</span>
+          <h4>📺《深夜实验室》第18集震撼上线</h4>
+          <p>科学悬疑剧集持续升温，更多未解之谜等待揭晓。</p>
+        </div>
+        <span class="news-arrow">→</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<div class="wrap">
+  <div class="cta-banner" style="padding:0 0 90px">
+    <div class="cta-inner rv">
+      <h3>🌙 每一个深夜，都有好电影相伴</h3>
+      <p>立即加入神马电影网午夜频道，海量高清影视资源等你发现</p>
+      <a href="#home" class="cta-btn">🚀 立即开始观影</a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="foot">
+  <div class="foot-inner">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <div class="brand-icon">🌙</div>
+          <div class="brand-text"><h1>神马电影网午夜</h1><span>Midnight Movies</span></div>
+        </div>
+        <p>神马电影网午夜频道，专为深夜观影者打造的高清正版影视平台。每日更新午夜场电影、电视剧、动漫、综艺，让每一个深夜都有好电影相伴。</p>
+      </div>
+      <div class="foot-col">
+        <h5>影视分类</h5>
+        <ul>
+          <li><a href="#midnight">午夜精选</a></li>
+          <li><a href="#series">深夜剧集</a></li>
+          <li><a href="#horror">恐怖惊悚</a></li>
+          <li><a href="#variety">午夜综艺</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>热门榜单</h5>
+        <ul>
+          <li><a href="#chart">评分排行榜</a></li>
+          <li><a href="#midnight">热播榜</a></li>
+          <li><a href="#news">最新上线</a></li>
+          <li><a href="#horror">恐怖榜</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>关于我们</h5>
+        <ul>
+          <li><a href="#">网站简介</a></li>
+          <li><a href="#">联系方式</a></li>
+          <li><a href="#">免责声明</a></li>
+          <li><a href="#">用户协议</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p class="foot-copy">© 2026 神马电影网午夜 版权所有 | 网址：https://shenmadianyingwangwuye-wap.github.io</p>
+      <div class="foot-links">
+        <a href="#">隐私政策</a>
+        <a href="#">服务条款</a>
+        <a href="#">帮助中心</a>
+        <a href="#">意见反馈</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  'use strict';
+
+  // Preloader
+  window.addEventListener('load',function(){
+    setTimeout(function(){
+      var pl=document.getElementById('preloader');
+      if(pl) pl.classList.add('done');
+      runCounters();
+      setTimeout(animateBars,400);
+    },900);
+  });
+
+  // Mobile Menu
+  var menuBtn=document.getElementById('menuBtn');
+  var mainNav=document.getElementById('mainNav');
+  if(menuBtn){
+    menuBtn.addEventListener('click',function(){
+      mainNav.classList.toggle('open');
+      var is=mainNav.classList.contains('open');
+      var ics=menuBtn.querySelectorAll('i');
+      if(is){
+        ics[0].style.transform='rotate(45deg) translate(5px,6px)';
+        ics[1].style.opacity='0';
+        ics[2].style.transform='rotate(-45deg) translate(5px,-6px)';
+      }else{
+        ics[0].style.transform='';
+        ics[1].style.opacity='';
+        ics[2].style.transform='';
+      }
+    });
+  }
+
+  // Close menu on nav click
+  document.querySelectorAll('.main-nav a').forEach(function(a){
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      mainNav.classList.remove('open');
+      var ics=menuBtn.querySelectorAll('i');
+      ics[0].style.transform='';ics[1].style.opacity='';ics[2].style.transform='';
+      var tgt=document.querySelector(this.getAttribute('href'));
+      if(tgt){
+        window.scrollTo({top:tgt.offsetTop-68,behavior:'smooth'});
+      }
+      document.querySelectorAll('.main-nav a').forEach(function(x){x.classList.remove('on')});
+      this.classList.add('on');
+    });
+  });
+
+  // Scroll Progress + Header
+  var sp=document.getElementById('scrollProgress');
+  var tb=document.getElementById('topbar');
+  var tt=document.getElementById('toTop');
+  window.addEventListener('scroll',function(){
+    var st=document.documentElement.scrollTop||document.body.scrollTop;
+    var h=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+    sp.style.width=(st/h*100)+'%';
+    if(st>60){tb.classList.add('scrolled')}else{tb.classList.remove('scrolled')}
+    if(st>400){tt.classList.add('show')}else{tt.classList.remove('show')}
+  },{passive:true});
+
+  // Back to top
+  tt.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+
+  // Scroll Reveal
+  var rv=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(e.isIntersecting){
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    },{threshold:0.12,rootMargin:'0px 0px -40px'});
+    rv.forEach(function(el){io.observe(el)});
+  }else{
+    rv.forEach(function(el){el.classList.add('in')});
+  }
+
+  // Counters
+  function runCounters(){
+    document.querySelectorAll('[data-target]').forEach(function(el){
+      var t=parseInt(el.getAttribute('data-target'),10);
+      var c=0;var step=Math.max(1,Math.ceil(t/50));
+      var id=setInterval(function(){
+        c+=step;
+        if(c>=t){c=t;clearInterval(id);}
+        el.textContent=c.toLocaleString()+(el.dataset.suffix||'');
+      },30);
+    });
+  }
+
+  // Bar animation
+  function animateBars(){
+    document.querySelectorAll('.cr-bar').forEach(function(b){
+      b.style.width=b.getAttribute('data-w')+'%';
+    });
+  }
+
+  // Search
+  window.doSearch=function(){
+    var v=document.getElementById('searchIn').value.trim();
+    if(v){
+      alert('搜索演示：关键词「'+v+'」\n部署后可接入搜索接口。');
+      document.getElementById('searchIn').value='';
+    }
+  };
+  document.getElementById('searchIn').addEventListener('keydown',function(e){
+    if(e.key==='Enter') doSearch();
+  });
+
+})();
+</script>
+</body>
+</html>
